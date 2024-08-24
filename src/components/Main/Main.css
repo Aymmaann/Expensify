@@ -1,0 +1,230 @@
+:root {
+    /* Primary */
+    --Strong-cyan: hsl(172, 67%, 45%);
+    /* Neutral */
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+}
+
+h1 {
+    color: var(--Very-dark-cyan);
+    font-size: 35px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 500px;
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 32px;
+    margin: 100px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.input-1 {
+    margin-top: 40px;
+}
+
+.input-2 {
+    margin-top: 25px;
+}
+
+
+.input-section p {
+    color: var(--Dark-grayish-cyan);
+    font-weight: 600;
+}
+
+.input-box {
+    margin-top: 7px;
+    background-color: var(--Very-light-grayish-cyan);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    border: none;
+    font-family: "Space Mono", monospace;
+    text-align: right;
+    outline: none;
+    background-color: var(--Very-light-grayish-cyan);
+    height: 100%;
+    padding: 12px;
+    font-size: 20px;
+    color: var(--Very-dark-cyan);
+    font-weight: 600;
+    width: 100%;
+    border-radius: 8px;
+}
+
+input::placeholder {
+    color: var(--Grayish-cyan);
+}
+
+.input-box img {
+    margin-left: 20px;
+    height: 20px;
+}
+
+.category-input {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 18px;
+}
+
+button {
+    background-color: var(--Very-dark-cyan);
+    color: var(--White);
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 12px;
+    font-family: "Space Mono", monospace;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.add-btn {
+    margin-top: 35px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: var(--Strong-cyan);
+}
+
+.result-container {
+    margin: 50px auto;
+    width: 900px;
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.expense-chart-section {
+    width: 450px;
+}
+
+.expense-chart-section h1 {
+    font-size: 32px;
+    color: var(--Very-dark-cyan);
+}
+
+.expense-chart-section li {
+    margin-top: 20px;
+    border: 2px solid var(--Dark-grayish-cyan);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.expense-chart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.expense-chart-item span {
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    background-color: var(--Dark-grayish-cyan);
+    height: 2px;
+    border-radius: 20px;
+}
+
+.delete-btn {
+    font-size: 16px;
+    padding: 6px 15px;
+}
+
+.total-display {
+    background-color: var(--Very-dark-cyan);
+    width: 400px;
+    height: auto;
+    color: var(--White);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.total-heading {
+    color: var(--White);
+    font-size: 30px;
+}
+
+.total-amt {
+    margin-top: 30px;
+    color: var(--Strong-cyan);
+    font-size: 60px;
+}
+
+.reset-btn {
+    margin-top: 50px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: var(--Strong-cyan);
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.reset-btn:hover {
+    background-color: var(--White);
+    color: var(--Strong-cyan);
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.nothing-here-box {
+    border: 2px solid var(--Dark-grayish-cyan);
+    border-radius: 12px;
+    padding: 24px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.wallet-icon {
+    width: 60px;
+}
+
+.nothing-here-box p {
+    text-align: center;
+    font-size: 15px;
+}

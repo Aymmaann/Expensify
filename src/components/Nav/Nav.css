@@ -1,0 +1,9 @@
+nav {
+    width: 100%;
+    padding: 15px 25px;
+    background-color: hsl(183, 100%, 15%);;
+}
+
+nav img {
+    width: 40px;
+}
