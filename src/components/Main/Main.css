@@ -228,3 +228,34 @@ hr {
     text-align: center;
     font-size: 15px;
 }
+
+@media screen and (max-width: 950px) {
+    .result-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .total-display {
+        width: 100%;
+    }
+    .expense-chart-section li {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 100px 0 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .result-container {
+        margin: 0;
+        border-radius: 0;
+        padding-bottom: 100px;
+    }
+    .expense-header {
+        margin-top: 30px;
+    }
+}

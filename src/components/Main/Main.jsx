@@ -81,7 +81,7 @@ export default function Main() {
 
             <div className="result-container">
                 <div className='expense-chart-section'>
-                    <h1>Expense Chart</h1>
+                    <h1 className='expense-header'>Expense Chart</h1>
                     <ul>
                         {expenses.length > 0 ? (
                             expenses.map(expense => (
