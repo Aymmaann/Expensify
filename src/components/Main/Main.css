@@ -164,8 +164,8 @@ hr {
 
 .total-display {
     background-color: var(--Very-dark-cyan);
-    width: 400px;
     height: auto;
+    width: 400px;
     color: var(--White);
     padding: 20px;
     border-radius: 12px;
