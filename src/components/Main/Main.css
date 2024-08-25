@@ -259,3 +259,22 @@ hr {
         margin-top: 30px;
     }
 }
+
+@media screen and (max-width: 506px) {
+    .expense-chart-section {
+        width: 100%;
+    }
+    .expense-chart-section ul {
+        width: 100%;
+    }
+    .expense-chart-section li {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .expense-chart-item {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
